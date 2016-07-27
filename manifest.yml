@@ -7,4 +7,4 @@ applications:
   host: Node1-cf
   disk_quota: 1024M
   services:
-  - Node1-cf-cloudantNoSQL
+  - Node1-cf-cloudantNoSQLDB
