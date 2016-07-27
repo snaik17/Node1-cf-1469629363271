@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Node1-cf
+  host: Node1-cf
+  disk_quota: 1024M
+  services:
+  - Node1-cf-cloudantNoSQLDB
